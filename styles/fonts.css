@@ -1,0 +1,20 @@
+@font-face {
+  font-family: LatoBold;
+  src: url(../fonts/Lato-Bold.woff);
+}
+@font-face {
+  font-family: LatoRegular;
+  src: url(../fonts/Lato-Regular.woff);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(../fonts/Roboto-Bold.woff);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../fonts/Roboto-Medium.woff);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../fonts/Roboto-Regular.woff);
+}

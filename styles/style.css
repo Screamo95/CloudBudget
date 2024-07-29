@@ -1,0 +1,11 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+:root {
+  --latoBold: LatoBold;
+  --latoRegular: LatoRegular;
+  --robotoBold: RobotoBold;
+  --robotoMedium: RobotoMedium;
+  --robotoRegular: RobotoRegular;
+}
