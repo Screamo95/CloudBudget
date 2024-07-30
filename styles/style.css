@@ -324,3 +324,113 @@
     font-size: 12px;
   }
 }
+
+/* Overview */
+.overview {
+  padding-top: 66px;
+  padding-bottom: 124px;
+  background: #fafafa;
+}
+.overview__container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.overview-title {
+  font-family: var(--robotoMedium);
+  font-size: 36px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 79px;
+}
+.overview__body {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 30px;
+}
+.overview__item {
+  width: 350px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.overview__card {
+  border-radius: 8px;
+  width: 293px;
+  height: 198px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding-top: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 29px;
+  margin-top: 157px;
+}
+.overview__card-name {
+  font-family: var(--robotoMedium);
+  font-size: 18px;
+  text-align: center;
+  color: #101010;
+  max-width: 229px;
+  margin: 0 auto 17px;
+  line-height: 120%;
+}
+.overview__card-txt {
+  font-family: var(--robotoRegular);
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #101010;
+  max-width: 229px;
+  margin: 0 auto 18px;
+}
+.overview__card-link {
+  font-family: var(--robotoRegular);
+  font-size: 12px;
+  text-align: center;
+  color: #ed4c5c;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+.overview__item_1 {
+  background-image: url(../img/overview_item-1.png);
+}
+.overview__item_2 {
+  background-image: url(../img/overview_item-2.png);
+}
+.overview__item_3 {
+  background-image: url(../img/overview_item-3.png);
+}
+
+@media screen and (max-width: 1200px) {
+  .overview__container {
+    padding-right: 30px;
+    padding-left: 30px;
+    max-width: 790px;
+  }
+  .overview__body {
+    grid-template-columns: 350px 350px;
+    row-gap: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .overview__body {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+  .overview {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .overview__body {
+    grid-template-columns: 260px;
+  }
+  .overview__item {
+    width: 260px;
+    border-radius: 8px;
+  }
+  .overview__card {
+    width: 260px;
+    margin-left: 0;
+  }
+}
