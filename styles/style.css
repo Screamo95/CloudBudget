@@ -92,6 +92,7 @@
   text-transform: uppercase;
   color: #ed4c5c;
   border: none;
+  cursor: pointer;
 }
 .burger__open {
   cursor: pointer;
@@ -559,6 +560,9 @@
 .download__box {
   display: flex;
   margin-left: -3px;
+}
+.download__box-icon {
+  cursor: pointer;
 }
 .download__box-icon:last-child {
   margin-left: 23px;
