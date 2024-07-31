@@ -615,7 +615,7 @@
 /* Contact */
 .contact {
   padding-top: 159px;
-  padding-bottom: 123px;
+  padding-bottom: 136px;
 }
 .contact__container {
   max-width: 1099px;
@@ -708,5 +708,41 @@
   }
   .contact__content-title {
     font-size: 24px;
+  }
+}
+
+/* Footer */
+.footer {
+  background: #fafafa;
+  padding-top: 47px;
+  padding-bottom: 48px;
+}
+.footer__content {
+  margin-left: 168px;
+}
+.footer__content-title {
+  font-family: var(--latoBold);
+  font-size: 18px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.footer__content-adress {
+  font-family: var(--latoRegular);
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+  margin-bottom: 46px;
+}
+.footer__content-txt {
+  font-family: var(--latoRegular);
+  font-size: 12px;
+  color: #101010;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__content {
+    margin-left: 0px;
+    margin: 0 auto;
+    max-width: 250px;
   }
 }
